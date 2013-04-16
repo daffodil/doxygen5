@@ -1,5 +1,6 @@
 *.svn
 Makefile
+Makefile.*
 
 # Compiled Object files
 *.slo
