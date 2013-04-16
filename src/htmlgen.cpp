@@ -2663,17 +2663,17 @@ static void startQuickIndexList(FTextStream &t,bool compact,bool topLevel=TRUE)
   {
     if (topLevel)
     {
-      t << "  <div id=\"navrow1\" class=\"tabs\">\n";
+      t << "  <div id=\"navrow1\" class=\"tabs\">N#1\n";
     }
     else
     {
-      t << "  <div id=\"navrow2\" class=\"tabs2\">\n";
+      t << "  <div id=\"navrow2\" class=\"tabs2\">n#2\n";
     }
-    t << "    <ul class=\"tablist\">\n"; 
+    t << "    <nav id='topnav'><ul class='tablist'>\n";
   }
   else 
   {
-    t << "<ul>";
+    t << "<ul></nav>";
   }
 }
 
